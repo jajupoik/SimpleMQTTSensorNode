@@ -18,8 +18,8 @@ long lastMsg = 0;
 long crrMsgNo = 0;
 
 // INSERT WIFI CREDENTIALS AND MQTT-SERVER ADDRESS
-const char* ssid     	= "AgoraOpen"; 	// wifi ssid;
-const char* password 	= ""; 			// wifi password;
+const char* ssid     	= ""; 	// wifi ssid;
+const char* password 	= ""; 		// wifi password;
 const char* mqtt_server = "127.0.0.1";	// MQTT broker address
 const char* topic_temp 	= "Temperature";
 
